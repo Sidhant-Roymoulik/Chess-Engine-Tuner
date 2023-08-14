@@ -12,12 +12,12 @@ namespace ChessEngineTuner
         /// The build directory of your bots. 
         /// Important Note: Should be in the same directory as your Chess-Challenge.exe, not this directory.
         /// </summary>
-        public static readonly string EngineDirectory = "D:/Users/tyler/Chess-Challenge/Chess-Challenge/bin/Debug/net6.0";
+        public static readonly string EngineDirectory = "C:\\Users\\SidRo\\Documents\\Random Projects\\SebLague Chess Challenge\\Chess-Challenge\\bin\\release\\net6.0";
 
         /// <summary>
         /// The path of your Cutechess-cli.exe file.
         /// </summary>
-        public static readonly string CutechessPath = "D:/Users/tyler/AppData/Local/Programs/Cute Chess/cutechess-cli.exe";
+        public static readonly string CutechessPath = "C:\\Users\\SidRo\\AppData\\Local\\Programs\\Cute Chess\\cutechess-cli.exe";
 
         /// <summary>
         /// The name of the file containing your evaluation weights. Located in your engine directory.
@@ -40,8 +40,8 @@ namespace ChessEngineTuner
         public static string FilePathB => Path.Combine(EngineDirectory, "B-" + FileName);
 
         public const int DefaultMaxMatches = 1000;
-        public const int GamesPerMatch = 4; // Played by each side
-        public const int ConcurrentGames = 8;
+        public const int GamesPerMatch = 6; // Played by each side
+        public const int ConcurrentGames = 12;
         public const int CycleLength = 20; // The length of a cycle for delta
 
         // In seconds
